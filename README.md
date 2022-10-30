@@ -8,7 +8,7 @@ You will need to write the program, based on what I have given. You are allowed 
 ## What provided to you
 The project already contains some infrastructure to get you started, as follows:
 
-- **App.js**, **index.css**, **index.js**: These are the three pre-coded filed that I have done some pre-coded things to you. I would advice you to have a look on the **App.js** file to have the better look, but not rather to edit it.
+- `**App.js**`, **index.css**, **index.js**: These are the three pre-coded filed that I have done some pre-coded things to you. I would advice you to have a look on the **App.js** file to have the better look, but not rather to edit it.
 
 - Two folders **UI** and **Users** in folder **components**: In here I have created two new folders. With folder **UI** would simply stored all of your components for styling purposes, and folder **Users** would for making functionality (Creating Users, Delete users). In here I have provided some sample codes that you might want to take a look 
 
@@ -32,9 +32,3 @@ That's it. Here is some of the job that you need to work on for this project - j
 
 When you finished the coding and testing program, create a new git repository and push there. Then send the link (and might the website link) over my email `dpham4@binghamton.edu`, then you finish the work
 
-
-
-
-
-
-# test

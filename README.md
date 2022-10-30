@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Midterm Test for class JavaScript Intensive - 30/10/2022 
+## Introduction
+For the test to day, we will work on a one of the most simple project but using React - Creating User account (Or another version for TodoList)
+This project will give the experience for practical creating simple React libraries components and utilizing useState, a React hook.
+You will need to write the program, based on what I have given. You are allowed the change the material following your algorithms.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## What provided to you
+The project already contains some infrastructure to get you started, as follows:
 
-In the project directory, you can run:
+- **App.js**, **index.css**, **index.js**: These are the three pre-coded filed that I have done some pre-coded things to you. I would advice you to have a look on the **App.js** file to have the better look, but not rather to edit it.
 
-### `npm start`
+- Two folders **UI** and **Users** in folder **components**: In here I have created two new folders. With folder **UI** would simply stored all of your components for styling purposes, and folder **Users** would for making functionality (Creating Users, Delete users). In here I have provided some sample codes that you might want to take a look 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Coding the project
+That's it. Here is some of the job that you need to work on for this project - just some little notes, but I have put some `TODO` comment as long as you can follow it. You should (or not) follow the process that I have put below here to find the way to work on better for this project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `npm install`: Before working on the project, please put in the folder on you machine and run `npm install`in the terminal.
 
-### `npm test`
+- **AddUser.jsx**: This function is seem like something is not working, try to go to this files and check the works. When you have fixed the problems. Try `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **UserList.jsx**: There is a problem in the CSS file. If you see, there is no hover effect on any created user. I want you to work on for every time we hover in the object. There is some styling effect on it. 
 
-### `npm run build`
+- **App.js**: After finished the hover effect, working in this files. In this file, I want you to have sorting algorithm, where we can sort userAge with ascending sort by working on the my function `addUserHandler`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- You will need to work on the `deleteUser` functionality. Whenever you click on the user, you can delete the user information
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Here is the final part of this project. Create a components (you must think should it is in the **UI** or **Users** folder) called SearchBar.jsx. This components will help to you search the user that you have created. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Bonus point if you can work on, if you can deploy the website the Internet, do it and gain 5pt for this project. 
+## Submitting the Project 
 
-### `npm run eject`
+When you finished the coding and testing program, create a new git repository and push there. Then send the link (and might the website link) over my email `dpham4@binghamton.edu`, then you finish the work
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# test
